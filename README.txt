@@ -8,7 +8,7 @@ Message from Enjel Hutasoit
 ------------------------------------------------------------------------------------------------
 Hi, there?
 
-This survey form is an example registration form that I use to my blog enjelhutasoit.com
+This is an example of registration form that I use to my blog enjelhutasoit.com
 
 You can connect with me on:
 >> https://enjelhutasoit.com 
