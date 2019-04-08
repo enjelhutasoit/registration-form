@@ -56,10 +56,10 @@
   
   
 <?php
-    $host = "<Nama enjelhutasoit.database.windows.net>";
-    $user = "<Nama enjelhutasoit>";
-    $pass = "<Password Xi3.I.AM.>";
-    $db = "<Nama enjelhutasoit>";
+    $host = "<Nama server database Anda>";
+    $user = "<Nama admin database Anda>";
+    $pass = "<Password admin database And>";
+    $db = "<Nama database Anda>";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
