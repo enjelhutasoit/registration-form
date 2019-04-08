@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>enjelhutasoit.com: Registration Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<h1 id="title">Registration Form</h1>
+<div id="form-outer">
+  <p id="description">Let me know how I can improve my blog <strong>enjelhutasoit.com</strong>.</p>
+<p>First, fill in your name, email, age, and job, then click <strong>Submit</strong> to register.</p>
+  
+  <form id="survey-form" method="post" action="index.php" enctype="multipart/form-data">
+    
+    <div class="rowTab">
+      <div class="labels">
+        <label input type="text" name="name" id="name">* Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+    
+    <div class="rowTab">
+      <div class="labels">
+        <label input type="text" name="email" id="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your email">
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label input type="text" name="email" id="email">* Job: </label>
+      </div>
+      
+      <div class="rightTab">
+        <input type="text" name="job" id="job" class="input-field" required placeholder="Enter your job">
+      </div>
+    </div>
+    
+    <div class="rowTab">
+      <div class="labels">
+        <label input type="int" name="age" id="age" id="number-label" for="age">* Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+
+    
+    <button class="submit" type="submit" name="submit" value="Submit">Submit</button> 
+    <button class="submit" type="submit" name="load_data" value="Load Data">Load Data</button>
+    
+    
+  </form>
+
+    
+    
+    </div>
+  
+  
+
+</body>
+
+</html>
